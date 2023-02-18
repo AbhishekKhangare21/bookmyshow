@@ -1,6 +1,13 @@
 body {
   font-family: sans-serif;
   margin: 2rem;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.logo {
+  background-color: lightgray;
+  padding: 5px;
 }
 .wrapper {
   display: grid;
@@ -69,4 +76,8 @@ body {
   background-color: rgb(192, 190, 190);
   border-radius: 2px;
   color: white;
+}
+
+.summary {
+  padding: 10px;
 }

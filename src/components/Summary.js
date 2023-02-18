@@ -6,10 +6,10 @@ const Summary = ({ shows, showId }) => {
   console.log("shows", shows);
   console.log();
   return (
-    <div>
+    <>
       <div className="summary" style={{ marginBottom: "20px" }}>
         <span>
-          <h1>summary</h1>
+          <h2>summary</h2>
           {shows
             .filter((showObj) => showObj.show.id === showId)
             .map((showObj) => (
@@ -27,7 +27,7 @@ const Summary = ({ shows, showId }) => {
       >
         go back
       </button>
-    </div>
+    </>
   );
 };
 

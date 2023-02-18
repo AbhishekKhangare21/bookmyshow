@@ -24,6 +24,7 @@ function App() {
   }, []);
   return (
     <div className="App">
+      <h2 className="logo">BookMyShow </h2>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home setId={setId} shows={shows} />} />
