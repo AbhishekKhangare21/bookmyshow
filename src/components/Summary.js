@@ -17,6 +17,7 @@ const Summary = ({ shows, showId }) => {
             ))}
         </span>
       </div>
+
       <button
         onClick={() => {
           navigate(-1);

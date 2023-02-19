@@ -27,7 +27,7 @@ body {
 .card__image {
   height: 12rem;
   width: 100%;
-  object-fit: fill;
+  object-fit: initial;
 }
 .card__title {
   padding: 0 1rem;
