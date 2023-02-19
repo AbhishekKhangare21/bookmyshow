@@ -1,4 +1,4 @@
-see live working project here - https://bookmyshowbyak.netlify.app/
+see live working project here - https://bookmyshow-byak.netlify.app/
 
 # Getting Started with Create React App
 
