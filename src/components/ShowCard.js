@@ -5,7 +5,7 @@ const ShowCard = ({ setId, showObj: { show } }) => {
     <div className="card">
       <div className="card__body">
         <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5pCLE_s1-hUQz5h-Y2NZ7lruYQll7y5XZZ95viZOC&s"
+          // src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5pCLE_s1-hUQz5h-Y2NZ7lruYQll7y5XZZ95viZOC&s"
           alt={show.name}
           className="card__image"
         />

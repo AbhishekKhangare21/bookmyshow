@@ -1,10 +1,8 @@
 import { useNavigate } from "react-router-dom";
 
 const Summary = ({ shows, showId }) => {
-  console.log("showId", showId);
   const navigate = useNavigate();
-  console.log("shows", shows);
-  console.log();
+
   return (
     <>
       <div className="summary" style={{ marginBottom: "20px" }}>
